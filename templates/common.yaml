@@ -1,0 +1,13 @@
+name: Apache Common log format
+LogFormat: <IP> <IDENTD> <USERID> <DATE> \"<QUERY>\" <RETCODE> <SCSIZE> \"<REFERER>\" \"<UA>\"
+values:
+  IP     : ip
+  IDENTD : string
+  USERID : string
+  DATE   : strftime3
+  QUERY  : string_s
+  RETCODE: number
+  SCSIZE : number
+  REFERER: string_s
+  UA     : string_s
+

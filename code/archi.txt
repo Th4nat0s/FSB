@@ -1,0 +1,6 @@
+1 Thread Manager
+
+un pool client / serveur.
+Par fichiers, 1 Thread Gunzip, 1 Thread Parse.
+Les thread communiquent par pipe.
+

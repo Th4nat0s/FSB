@@ -1,0 +1,19 @@
+datatypes:
+	- name:	"ip"
+		regex: "(?:[0-9]{1,3}\.){3}[0-9]{1,3}"
+	
+	- name: "ipv6"
+		regex: "(?:[a-f0-9]+:+)+:[a-f0-9]+"
+
+	- name: "string"
+		regex: "\w+"
+
+	-	name: "strftime3"
+		regex : "\[(?:\d){2}\/(?:\w){3}\/(?:\d){4}:(?:\d){2}:(?:\d){2}:(?:\d){2}\s[-+](?:\d){4}\]"
+  	regexfast: "\[[\d\w\s]+]\]"
+
+	- name: "string_s"
+		regex: "(?:\w|\s)+"
+
+	- name : number
+		regex: "\d+"
